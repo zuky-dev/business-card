@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="w-full h-40 bg-white">
         JO
     </div>
 </template>

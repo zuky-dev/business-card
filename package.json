@@ -2,10 +2,13 @@
   "name": "business-card",
   "version": "1.0.0",
   "description": "virtual business card",
-  "main": "index.js",
+  "source": [
+    "index.html",
+    "404.html"
+  ],
   "scripts": {
-    "start": "parcel index.html 404.html",
-    "predeploy": "rm -rf dist && parcel build index.html 404.html",
+    "start": "parcel",
+    "build": "rm -rf ./dist && rm -rf ./.parcel-cache && parcel build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {

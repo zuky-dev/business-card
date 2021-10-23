@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "parcel",
-    "build": "rm -rf ./dist && rm -rf ./.parcel-cache && parcel build",
+    "build": "rm -rf ./dist && rm -rf ./.parcel-cache && parcel build --no-source-maps --public-url ./",
     "deploy": "gh-pages -d dist"
   },
   "repository": {

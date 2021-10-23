@@ -1,0 +1,10 @@
+@import "/node_modules/tailwindcss/base.css";
+@import "/node_modules/tailwindcss/components.css";
+@import "/node_modules/tailwindcss/utilities.css";
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}

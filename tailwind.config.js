@@ -6,7 +6,11 @@ module.exports = {
         "./assets/vue/routes/*.vue"
     ],
     theme: {
-      extend: {},
+      extend: {
+        width: {
+          '192': '48rem'
+         }
+      },
     },
     variants: {
       extend: {},

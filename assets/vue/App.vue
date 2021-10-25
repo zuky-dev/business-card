@@ -12,8 +12,11 @@
         bottom: 0;
         left: 0;
         background-image: url("/assets/img/bg.png");
+        background-attachment: fixed;
         background-repeat: no-repeat;
+        background-position: center center;
         background-size: cover;
+
     }
 </style>
 
